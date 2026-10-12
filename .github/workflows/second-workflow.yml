@@ -1,0 +1,13 @@
+name: Second Workflow
+on: workflow_dispatch
+jobs:
+    Second-job: 
+        runs-on: windows-latest
+        steps:  
+          - name: Hello GitAction
+            run: echo "This is first action"
+          - name: End GitAction
+            run: echo "This is end of action"
+
+
+    

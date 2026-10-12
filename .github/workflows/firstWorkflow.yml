@@ -7,5 +7,5 @@ jobs:
       - name: Hello GitAction
         run: echo "This is first action"
       - name: End GitAction
-        run: ecgo "This is end of action"
+        run: echo "This is end of action"
         

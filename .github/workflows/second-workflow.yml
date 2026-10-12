@@ -1,5 +1,5 @@
 name: Second Workflow
-on: workflow_dispatch
+on: push
 jobs:
     Second-job: 
         runs-on: windows-latest

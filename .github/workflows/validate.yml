@@ -1,0 +1,18 @@
+name: Validate Files
+on: push
+jobs:
+    Validate-File: 
+        runs-on: windows-latest
+        steps:  
+          - name: get-repo code
+            uses: actions/checkout@v4
+
+          - name: validate html file
+            run: test -f index.html
+
+          - name: validate Js file
+            run: test -f Script.js
+
+
+
+    

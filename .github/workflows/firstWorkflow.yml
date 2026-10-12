@@ -5,7 +5,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Hello GitAction
-        run: ecgo "This is first action"
+        run: echo "This is first action"
       - name: End GitAction
         run: ecgo "This is end of action"
         
